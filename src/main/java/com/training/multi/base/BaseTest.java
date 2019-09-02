@@ -14,7 +14,7 @@ public class BaseTest {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//chromedriver.exe");
 			}
 			else {
-				System.setProperty("webdriver.chrome.driver", "/root/Downloads/chromedriver_linux");
+				System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver_linux");
 			}
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
