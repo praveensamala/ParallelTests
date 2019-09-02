@@ -17,7 +17,7 @@ public class BaseTest {
 			}
 			else {
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--disable-dev-shm-usage");
+				//options.addArguments("--disable-dev-shm-usage");
 				options.addArguments("--no-sandbox");
 				System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver_linux");
 				driver = new ChromeDriver(options);
