@@ -33,7 +33,7 @@ public class MultiTests extends BaseTest {
 	
 	@Test(enabled = true)
 	public void Test01() {
-		WebDriver driver = getDriver("chrome");
+		WebDriver driver = getDriver("chrome", "linux");
 		driver.get("https://www.weather.com");
 		driver.manage().window().maximize();
 		waitForPageLoaded(driver);
@@ -45,7 +45,7 @@ public class MultiTests extends BaseTest {
 	
 	@Test(enabled = true)
 	public void Test02() {
-		WebDriver driver = getDriver("chrome");
+		WebDriver driver = getDriver("chrome", "linux");
 		driver.get("https://www.weather.com");
 		driver.manage().window().maximize();
 		waitForPageLoaded(driver);
@@ -57,7 +57,7 @@ public class MultiTests extends BaseTest {
 	
 	@Test(enabled = true)
 	public void Test03() {
-		WebDriver driver = getDriver("chrome");
+		WebDriver driver = getDriver("chrome", "linux");
 		driver.get("https://www.weather.com");
 		driver.manage().window().maximize();
 		waitForPageLoaded(driver);
