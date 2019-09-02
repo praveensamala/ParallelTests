@@ -33,8 +33,8 @@ public class MultiTests extends BaseTest {
 	
 	@Test(enabled = true)
 	public void Test01() {
-		//WebDriver driver = getDriver("chrome", "linux");
-		WebDriver driver = getDriver("firefox", "windows");
+		//WebDriver driver = getDriver("chrome", "windows");
+		WebDriver driver = getDriver("firefox", "linux");
 		driver.get("https://www.weather.com");
 		driver.manage().window().maximize();
 		waitForPageLoaded(driver);

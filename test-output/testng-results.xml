@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="23470" started-at="2019-09-02T04:28:43Z" finished-at="2019-09-02T04:29:07Z">
+  <suite name="Default suite" duration-ms="34669" started-at="2019-09-02T08:30:46Z" finished-at="2019-09-02T08:31:21Z">
     <groups>
     </groups>
-    <test name="test01" duration-ms="23470" started-at="2019-09-02T04:28:43Z" finished-at="2019-09-02T04:29:07Z">
+    <test name="Default test" duration-ms="34669" started-at="2019-09-02T08:30:46Z" finished-at="2019-09-02T08:31:21Z">
       <class name="com.training.multi.browser.testing.MultiTests">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2019-09-02T09:58:43Z" finished-at="2019-09-02T09:58:43Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@42d80b78]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2019-09-02T14:00:46Z" finished-at="2019-09-02T14:00:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2019-09-02T09:58:43Z" finished-at="2019-09-02T09:58:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2019-09-02T09:58:43Z" finished-at="2019-09-02T09:58:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="Test02()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="Test02" duration-ms="23443" started-at="2019-09-02T09:58:43Z" finished-at="2019-09-02T09:59:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test02 -->
-        <test-method status="PASS" signature="Test03()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="Test03" duration-ms="22955" started-at="2019-09-02T09:58:43Z" finished-at="2019-09-02T09:59:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test03 -->
-        <test-method status="PASS" signature="Test01()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="Test01" duration-ms="23442" started-at="2019-09-02T09:58:43Z" finished-at="2019-09-02T09:59:07Z">
+        <test-method status="PASS" signature="Test01()[pri:0, instance:com.training.multi.browser.testing.MultiTests@42d80b78]" name="Test01" duration-ms="34647" started-at="2019-09-02T14:00:46Z" finished-at="2019-09-02T14:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-02T09:59:06Z" finished-at="2019-09-02T09:59:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-02T09:59:07Z" finished-at="2019-09-02T09:59:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@2d928643]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-02T09:59:07Z" finished-at="2019-09-02T09:59:07Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.multi.browser.testing.MultiTests@42d80b78]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-02T14:01:21Z" finished-at="2019-09-02T14:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.training.multi.browser.testing.MultiTests -->
-    </test> <!-- test01 -->
-  </suite> <!-- TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

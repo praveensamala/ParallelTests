@@ -24,8 +24,15 @@ public class BaseTest {
 			}
 			
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//geckodriver.exe");
-			driver = new FirefoxDriver();
+			if (os.equalsIgnoreCase("windows")) {
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//geckodriver.exe");
+				driver = new FirefoxDriver();
+			}
+			else {
+				System.setProperty("webdriver.gecko.driver", "/tmp/geckodriver_linux");
+				driver = new FirefoxDriver();
+			}
+			
 		} else if (browser.equalsIgnoreCase("interexplorer")) {
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "//IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
